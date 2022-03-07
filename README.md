@@ -1,2 +1,2 @@
-# Pasteler-a-Maquetaci-n-HTML
+# Pastelería-Maquetación-HTML
 Maquetación en HTML de pastelería: Astro Cakes
