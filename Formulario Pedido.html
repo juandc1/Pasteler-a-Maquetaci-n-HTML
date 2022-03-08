@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Levantar Pedido</title>
+</head>
+<body>
+    <h2>Información del pedido</h2>
+
+    <form action="pedido.js">
+        <label for="pastel">Elije cuántos pasteles deseas:</label><br>
+        <input type="number" name="pastel" placeholder="0">
+
+        <p>Tipo de pastel(es):</p>
+        <input type="radio" id="simple1" name="simpleocombinado1" value="simple1">
+        <label for="simple1">Simple</label><br>
+        <input type="radio" id="combinado1" name="simpleocombinado1" value="combinado1">
+        <label for="combinado1">Combinado</label><br><br>
+        <label for="nombre">Sabor(es):</label>
+        <input type="text" id="sabor" name="sabor"><br><br>
+
+        <p>Tipo de adorno(s):</p>
+        <input type="radio" id="simple2" name="simpleocombinado2" value="simple2">
+        <label for="simple2">Simple</label><br>
+        <input type="radio" id="combinado2" name="simpleocombinado2" value="combinado2">
+        <label for="combinado2">Combinado</label><br><br>
+        <label for="adorno">Adorno(s):</label>
+        <input type="text" id="adorno" name="adorno"><br><br>
+
+        <hr>
+        <h2>Datos de contacto:</h2>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido"><br><br>
+
+        <label for="correo1">Ingresa tu correo electrónico:</label><br>
+        <input type="email" id="correo1" name="correo1"><br><br>
+
+        <label for="tel1">Ingresa tu número de teléfono:</label><br>
+        <input type="tel" id="tel1" name="tel1" maxlength="10"><br><br>
+        
+        <label for="direccion">Ingresa tu dirección:</label><br>
+        <input type="text" id="direccion" name="direccion"><br><br>
+        
+
+        <hr>
+
+        <h2>Programación de entrega:</h2>
+        <h3>Elija la fecha en la que desea recibir su pedido:</h3>
+        <input type="date" id="fecha1" name="fecha1">
+        <h3>Elije la hora en la que deseas recibir tu pedido:</h3>
+        <input type="time" id="fecha3" name="fecha3">
+
+
+        <br><br>
+        <input type="reset">
+        <input type="submit">
+        <br><br>
+    </form>
+
+</body>
+</html>
